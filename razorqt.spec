@@ -2,10 +2,12 @@ Name:		razorqt
 Version:	0.3.0
 Release:	1
 License:	GPL
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	http://downloads.sourceforge.net/razor-qt/files/%{name}-%{version}.tar.bz2
+# Source0-md5:	bf53bac8f3e74cea504415a3c0110ec8
 Summary:	Razor a lightweight desktop toolbox
 Summary(pl.UTF-8):	Razor jest lekkim zestawem narzędzi na biurko
 Group:		X11/Applications
+URL:		http://razor-qt.sf.net/
 BuildRequires:	QtCore-devel
 BuildRequires:	QtDBus-devel
 BuildRequires:	QtGui-devel
@@ -17,7 +19,7 @@ BuildRequires:	qt4-linguist
 BuildRequires:	xorg-lib-libXcomposite-devel
 BuildRequires:	xorg-lib-libXdamage-devel
 BuildRequires:	xorg-lib-libXrender-devel
-BuildRequireS:	xorg-lib-libX11-devel
+BuildRequires:	xorg-lib-libX11-devel
 Requires:	%{name}-desktop
 Requires:	%{name}-panel
 Requires:	%{name}-session
