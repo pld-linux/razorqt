@@ -1,4 +1,6 @@
 # TODO
+# - merge with razor-qt.spec
+# TODO
 # - lang tag stuff: /usr/share/razor/razor-desktop/analogclock/analogclock_ru_RU.qm
 Summary:	Razor a lightweight desktop toolbox
 Summary(pl.UTF-8):	Razor jest lekkim zestawem narzędzi na biurko
